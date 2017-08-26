@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement", "UserManagement\UserManagement.csproj", "{83EBECF5-C386-488B-8BC1-6A3DFEFE37FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySQLHelper", "MySQLHelper\MySQLHelper.csproj", "{AA917298-E6E1-4DC4-8D05-9CE1D827CB75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AirlineManager", "AirlineManager", "{0C8B3F7B-B90B-4DF8-9D28-0E3524A6354C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteConfigurator", "RouteConfigurator\RouteConfigurator.csproj", "{EEFCC6A9-64CE-41B0-B99F-C534F3C4A499}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,20 @@ Global
 		{83EBECF5-C386-488B-8BC1-6A3DFEFE37FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83EBECF5-C386-488B-8BC1-6A3DFEFE37FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83EBECF5-C386-488B-8BC1-6A3DFEFE37FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA917298-E6E1-4DC4-8D05-9CE1D827CB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA917298-E6E1-4DC4-8D05-9CE1D827CB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA917298-E6E1-4DC4-8D05-9CE1D827CB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA917298-E6E1-4DC4-8D05-9CE1D827CB75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEFCC6A9-64CE-41B0-B99F-C534F3C4A499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFCC6A9-64CE-41B0-B99F-C534F3C4A499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFCC6A9-64CE-41B0-B99F-C534F3C4A499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFCC6A9-64CE-41B0-B99F-C534F3C4A499}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEFCC6A9-64CE-41B0-B99F-C534F3C4A499} = {0C8B3F7B-B90B-4DF8-9D28-0E3524A6354C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8B42B04-CA6F-409E-B18E-401DA53C9E84}
