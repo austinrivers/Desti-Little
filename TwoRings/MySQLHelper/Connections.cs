@@ -10,14 +10,11 @@ namespace MySQLHelper
 {
     public static class Connections
     {
-
-        private static MySqlConnection Connect(string database, string username, string password)
+        public static MySqlConnection Connect(string database, string username, string password)
         {
             MySqlConnection conn = null;
 
             string connstring = $"Server=localhost; database={database}; UID={username}; password={password}";
-
-
 
             return conn;
         }

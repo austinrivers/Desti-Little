@@ -11,32 +11,25 @@ namespace RouteConfigurator
         /// <summary>
         /// A representation of what a route is in AirlineManager
         /// </summary>
-        public string callsign;
-        public string airportName;
-        public int distance;
-        public int categoryMax;
-        public int taxPerTakeoff;
-        public int price;
-        public int demandEconomy;
-        public int demandBusiness;
-        public int demandFirst;
-        public int demandCargo;
+        public int RouteID;
+        public Hub Hub;
+        public string CallSign;
+        public string AirportName;
+        public bool Active;
+        public bool AuditOnly;
+        public DateTime AuditDate;
+        public int MaxCategory;
+        public int Distance;
+        public int TaxPerFlight;
+        public int DemandEconomy;
+        public int DemandBusiness;
+        public int DemandFirst;
+        public int DemandCargo;
 
 
-        public Route(string _callSign, string _airportName, int _distance, int _categoryMax
-                    ,int  _taxPerTakeoff, int _price, int _demandEconomy, int _demandBusiness
-                    ,int _demandFirst, int _demandCargo)
+        public Route(int routeID)
         {
-            callsign = _callSign;
-            airportName = _airportName;
-            distance = _distance;
-            categoryMax = _categoryMax;
-            taxPerTakeoff = _taxPerTakeoff;
-            price = _price;
-            demandEconomy = _demandEconomy;
-            demandBusiness = _demandBusiness;
-            demandFirst = _demandFirst;
-            demandCargo = _demandCargo;
+            RouteID = routeID;
         }
     }
 }
